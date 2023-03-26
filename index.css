@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#gamescore{
+    font-size: 4em;
+    margin-bottom: 0em;
+}
+
+#gameborder{
+    border: 21px solid whitesmoke;
+}
+
+.hboard{
+    height: 710px;
+    width: 710px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 60px;
+    background-color: teal;
+}
+
+.holes{
+    background-color: black;
+    border-radius: 50%;
+    box-shadow: inset 0px 10px 10px 10px black;
+    position: relative;
+    overflow: hidden;
+}
