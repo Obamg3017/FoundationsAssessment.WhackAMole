@@ -40,4 +40,5 @@ reset.addEventListener("click", function(){
     board.style.backgroundColor = "whitesmoke"
 });
 
+
 reset.addEventListener("click", resetGame);
