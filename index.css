@@ -17,12 +17,12 @@ body{
     align-items: center;
 }
 
-#gamescore{
-    font-size: 4em;
+.gamescore{
+    font-size: 7em;
     margin-bottom: 0em;
 }
 
-#gameborder{
+.gameborder{
     border: 21px solid whitesmoke;
 }
 
@@ -33,13 +33,19 @@ body{
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 60px;
-    background-color: teal;
+    background-color: rgb(84, 110, 110);
 }
 
 .holes{
     background-color: black;
     border-radius: 50%;
-    box-shadow: inset 0px 10px 10px 10px black;
+    box-shadow: inset 0px 10px 10px 10px teal;
     position: relative;
     overflow: hidden;
+}
+
+button{
+   display: block;
+   margin-left: 16.3em;
+   font-size: 20px;
 }
