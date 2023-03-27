@@ -32,12 +32,8 @@ function resetGame(){
     gameCount = 0;
     display();
     randomHole().appendChild(goat);
-    goat.removeChild(goat);
-    
-    
+    goat.removeChild(goat);  
 }
-
-
 
 reset.addEventListener("click", function(){
     alert("The Game has been reset...Try Whacking the Mole...I'm mean GOAT Again!!!")
